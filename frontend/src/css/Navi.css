@@ -1,0 +1,34 @@
+.navi-container {
+    margin-top: 1.5rem;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    padding: 0 40px;
+}
+.navi-box{
+    display: flex;
+    position: relative;
+}
+.navi-box a {
+    width: 9rem;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    color: rgb(134, 142, 150);
+    height: 3rem;
+    text-decoration: none;
+    text-align: center;
+}
+.navi-underline{
+    width: 50%;
+    height: 2px;
+    position: absolute;
+    bottom: 0px;
+    background: rgb(52, 58, 64);
+}

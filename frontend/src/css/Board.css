@@ -1,0 +1,230 @@
+/* main bar */
+.trend-section{
+    display: flex;
+    margin-top: 2rem;
+    padding: 0 40px;
+}
+.trend-main{
+    flex: 1 1 0%;
+}
+.trend-main .main-section{
+    display: flex;
+    margin: -1rem;
+    flex-wrap: wrap;
+}
+.article{
+    width: 20rem;
+    background: white;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 4px 16px 0px;
+    transition: box-shadow 0.25s ease-in 0s, transform 0.25s ease-in 0s;
+    margin: 1rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.article a{
+    display: block;
+    color: inherit;
+    text-decoration: none;
+}
+.arcticle-img{
+    width: 100%;
+    position: relative;
+    padding-top: 52.1921%;
+}
+.arcticle-img img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+.article-content{
+    padding: 1rem;
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: column;
+}
+.article-content a{
+    display: block;
+    color: inherit;
+    text-decoration: none;
+}
+.article-content a h4{
+    font-size: 1.4rem;
+    margin: 0px 0px 0.25rem;
+    line-height: 1.5;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: rgb(33, 37, 41);
+}
+.desc-wrapper{
+    flex: 1 1 0%;
+}
+.desc-wrapper p{
+    margin: 0px 0px 1.5rem;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    height: 3.9375rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: rgb(73, 80, 87);
+}
+.sub-info {
+    font-size: 0.75rem;
+    line-height: 1.5;
+    color: rgb(134, 142, 150);
+}
+.sub-info .separator{
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+}
+.article-footer{
+    padding: 0.625rem 1rem;
+    border-top: 1px solid rgb(248, 249, 250);
+    display: flex;
+    font-size: 0.75rem;
+    line-height: 1.5;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+.article-footer a{
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.article-footer a img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 1.5rem;
+    height: 1.5rem;
+    display: block;
+    margin-right: 0.5rem;
+}
+.filter-info{
+    margin-top: 0.5rem;
+}
+.filter-info p{
+    background: rgb(241, 243, 245);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    height: 2rem;
+    border-radius: 1rem;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-right: 0.875rem;
+    color: rgb(12, 166, 120);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.likes{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.likes svg{
+    width: 0.75rem;
+    height: 0.75rem;
+    margin-right: 0.5rem;
+}
+/* main bar */
+
+
+
+/* aside bar */
+aside {
+    display: block;
+    margin-right: 7%;
+}
+.pDRpR {
+    margin-left: 3rem;
+    padding: 0 40px;
+}
+.eyrfCG{
+    width: 7rem;
+}
+.input__label{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding: .375em 0 .475em 1.7em;
+    cursor: pointer;
+}
+.input__label:before{
+    border: 1px solid #333;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 1em;
+    height: 1em;
+    margin-top: -.5em;
+    transition: border-color .15s cubic-bezier(.645,.045,.355,1);
+    content: "";
+    box-sizing: inherit;
+    border-radius: 3px;
+}
+section ul li{
+    margin-right: 50px;
+}
+section ul li label{
+    font-size: 20px;
+}
+.filters-input__tick{
+    position: absolute;
+    top: 50%;
+    left: .5em;
+    width: .5em;
+    height: .5em;
+    margin-top: -.25em;
+    margin-left: -.25em;
+    opacity: 0;
+    transform: scale(0);
+    transition: opacity .15s cubic-bezier(.645,.045,.355,1),transform .15s cubic-bezier(.645,.045,.355,1);
+}
+input:checked+label
+  .filters-input__tick {
+    opacity: 1;
+    transform: scale(1);
+}
+svg:not(:root) {
+    overflow: hidden;
+}
+.filters-input__tick svg {
+    fill: #333;
+}
+:not(svg) {
+    transform-origin: 0px 0px;
+}
+.filters-input__checkbox {
+    display: none;
+}
+label {
+    cursor: default;
+}
+svg[focusable=false] {
+    vertical-align: top;
+    width: 100%;
+    height: 100%;
+}
+section{
+    display: block;
+}
+.filter__head{
+    margin-bottom: 25px;
+}
+/* aside bar */
+
+

@@ -1,0 +1,97 @@
+/* Header */
+
+.header{
+    max-width: 1400px;
+    padding: 0 40px;
+    height: 95px;
+    margin: 0 auto;
+  }
+  
+  .header-nav{
+    height: 100%;
+  }
+  
+  .header-nav-links{
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .header-logo{
+    margin-right: auto;
+    font-size: 2rem;
+  }
+  
+  .header-serach{
+    margin-left: 10px;
+    outline: none;
+  }
+  
+  .header-dashboard{
+    height: 2rem;
+    background: #ffffff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    outline: none;
+    margin-left: 10px;
+    margin-right: 1.25rem;
+  }
+  
+  .header-btn{
+    background: rgb(52,58,64);
+    color: white;
+    height: 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    outline: none;
+    margin-left: 10px;
+  }
+
+  /*  ++ Header */
+  .user-image{
+    display: block;
+    height: 2.5rem;
+    width: 2.5rem;
+    box-shadow: rgba(0, 0, 0, 0.086) 0px 0px 8px;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: all 0.125s ease-in 0s;
+  }
+  .user-container{
+    cursor: pointer;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+  }
+  .user-profile{
+    position: absolute;
+    right: 0;
+    top: 80%;
+  }
+  .profile-menu{
+    position: relative;
+    z-index: 5;
+    width: 12rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+    background: white;
+  }
+  .profile-menu a{
+    display: block;
+    color: inherit;
+    text-decoration: none;
+  }
+  .menu{
+    color: rgb(33, 37, 41);
+    line-height: 1.5;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 0.75rem 1rem;
+  }
